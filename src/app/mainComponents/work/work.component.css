@@ -1,0 +1,115 @@
+#workDiv {
+    margin: auto auto;
+    font-weight: 500;
+    max-width: 750px;
+    font-size: 1.1em;
+    width: 78%;
+    font-family: 'Roboto', sans-serif;
+    animation: workDivUp ease 4.6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    letter-spacing: 0.05rem;
+    margin-bottom: 12rem;
+}
+
+#workDiv>h1 {
+    color: var(--LightestSlate);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 7%;
+}
+
+#workDiv .hl {
+    border-top: 1px solid #afb6cea8;
+    margin-left: 18px;
+    width: 170px;
+    padding-bottom: 7px;
+    display: inline-block;
+}
+
+#workDiv span {
+    color: var(--Green);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+}
+
+@keyframes workDivUp {
+    80% {
+        opacity: 0;
+        margin-top: 110px;
+    }
+    100% {
+        margin-top: 90px;
+        opacity: 1;
+    }
+}
+
+#workDiv #tab-work {
+    color: #ccd6f6ce;
+    margin-top: 20px;
+    max-width: 700px;
+    font-size: 1.06rem;
+    font-family: "Roboto", monospace;
+}
+
+#workDiv #tab-work a {
+    color: #40ffd2;
+    text-decoration: none;
+}
+
+#workDiv #tab-work a:hover {
+    text-decoration: underline rgba(39, 117, 99, 0.744);
+}
+
+
+#tab-work button {
+    border-left: 2px solid rgba(112, 128, 144, 0.548);
+    font-family: 'Roboto Mono', monospace;
+    font-size: small;
+    padding: 0.7rem 1rem;
+    color: #ccd6f6ce;
+    border-radius: 0px;
+    text-align: left;
+    background-color: var(--Navy);
+}
+#tab-work button.active{
+    color: #40ffd2;
+    font-weight: bold;
+    border-left: 2px solid #40ffd2;
+    background-color: #152b49 !important;
+}
+#tab-work button:hover {
+    font-weight: bold;
+    color: #40ffd2;
+    background-color: #152b49 !important;
+}
+
+@media (max-width:780px) {
+    #workDiv{
+        margin-bottom: 4rem;
+    }
+    #workDiv .hl {
+        width: 90px;
+    }
+    #workDiv>h1 {
+        font-size: 1.2rem;
+    }
+    #workDiv span {
+        font-size: 1rem;
+    }
+    #workDiv #tab-work{
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width:1500px) {
+    #workDiv{
+        margin-bottom: 20rem;
+    }
+}
+
+@media (max-width:1150px) and (min-width:780px) {
+    #workDiv{
+        margin-bottom: 10rem;
+    }
+}

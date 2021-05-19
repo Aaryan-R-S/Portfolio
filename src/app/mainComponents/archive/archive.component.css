@@ -1,0 +1,125 @@
+#archiveDiv{
+    padding-top: 5rem;
+    font-size: 1.1rem;
+    width: 78%;
+    font-family: 'Roboto', monospace;
+    animation: archiveDivUp ease 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#archiveDiv>h1 {
+    color: var(--LightestSlate);
+    font-size: 4.3rem;
+    font-weight: 800;
+}
+#archiveDiv>h2 {
+    color: var(--Green);font-weight: bold; font-size: medium; font-family: 'Roboto mono', monospace;
+    padding-bottom: 3rem;
+}
+
+@keyframes archiveDivUp {
+    0% {
+        opacity: 0;
+        margin-top: 110px;
+    }
+    100% {
+        margin-top: 90px;
+        opacity: 1;
+    }
+}
+
+#archiveDiv table {
+    margin-top: 4rem;
+    color: var(--Slate);
+    font-size: 0.9rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+#archiveDiv table>tbody>tr>td, #archiveDiv table>tbody>tr>th {
+  border: none;
+}
+#archiveDiv table th{
+    border: none;
+    color: var(--LightSlate);
+    font-size: 1.08rem;
+    letter-spacing: 0.05rem;
+    font-weight: bolder;
+    padding: 1.5rem 1.5rem;
+    font-family: 'Roboto';
+}
+
+#archiveDiv table tbody tr:hover{
+    background-color: var(--LightNavy);
+}
+#archiveDiv table td{
+    padding: 0.8rem 1.5rem;
+}
+
+#archiveDiv .mainTitle{
+    max-width: 300px; font-weight: 1200;font-size: 1.1rem;color: var(--LightestSlate); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#archiveDiv .mainYear{
+    color: var(--Green);font-size: 1rem; padding: auto; margin: auto;
+}
+#archiveDiv a button {
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    padding: 0.8em 1.2em;
+    border: 1px solid #40ffd2;
+}
+
+#archiveDiv a button:hover {
+    background-color: #152b49 !important;
+}
+
+#archiveDiv #projectLink a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--LightSlate);
+    margin-right: 1rem;
+    cursor: ne-resize;
+}
+
+#archiveDiv #projectLink a :hover{
+    color: var(--Green);
+}
+
+
+@media (max-width:780px) {
+    #archiveDiv{
+        width: 90%;
+    }
+    #archiveDiv>h1{
+        font-size: 2.2rem;
+    }
+    .hideAtMaxWidth{
+        display: none;
+    }
+    #archiveDiv>h2 {
+        padding-bottom: 1rem;
+        font-size: 1rem;
+    }
+    #archiveDiv table th{
+        font-size: 1.1rem;
+        padding: 0.6rem 1rem;
+    }
+    #archiveDiv table{
+        font-size: small;
+    }
+    #archiveDiv table td{
+        padding: 0.4rem 1rem;
+    }
+    #archiveDiv .mainTitle{
+        font-size: 1rem;
+    }
+    #archiveDiv .mainYear{
+        font-size: 0.9rem;
+    }
+    #archiveDiv #projectLink a {
+        margin-right: 0.6rem;
+        font-size: 1.3rem;
+    }
+}

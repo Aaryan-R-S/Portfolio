@@ -1,0 +1,70 @@
+#contactDiv {
+    margin-top: 90px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 78%;
+    font-family: 'Roboto', sans-serif;
+    animation: contactDivUp ease 4.6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-bottom: 5rem;
+}
+
+#contactDiv>h1 {
+    color: var(--LightestSlate);
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+#contactDiv>h2{
+    font-size: 1.2rem;
+}
+@keyframes contactDivUp {
+    80% {
+        opacity: 0;
+        margin-top: 110px;
+    }
+    100% {
+        margin-top: 90px;
+        opacity: 1;
+    }
+}
+
+#contactDiv>p {
+    color: #ccd6f6ce;
+    max-width: 570px;
+    margin: 20px auto;
+}
+#contactDiv>p>a {
+    color: #40ffd2;
+    text-decoration: none;
+}
+
+#contactDiv>p>a:hover {
+    text-decoration: underline rgba(39, 117, 99, 0.744);
+}
+
+#contactDiv>a>button {
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border: 1px solid #40ffd2;
+    padding: 0.8em 1.2em;
+}
+
+#contactDiv>a>button:hover {
+    background-color: #152b49 !important;
+}
+
+@media (max-width:780px) {
+    #contactDiv>h1{
+        font-size: 2.2rem;
+    }
+    #contactDiv{
+        font-size: 1rem;
+    }
+    #contactDiv>h2{
+        font-size: 1rem;
+    }
+}

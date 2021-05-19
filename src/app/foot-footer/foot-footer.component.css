@@ -1,0 +1,53 @@
+.icon-bar-foot {
+    display: none;
+    text-align: center;
+    top: 60%;
+    bottom: 10%;
+    margin: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+footer {
+    text-align: center;
+    top: 60%;
+    bottom: 5%;
+    margin: auto;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.icon-bar-foot a {
+    text-align: center;
+    padding: 14px;
+    transition: all 0.3s ease;
+    color: #afb6cee3;
+    font-size: 22px;
+}
+
+.icon-bar-foot a:hover {
+    color: #64ffda;
+    cursor: pointer;
+}
+
+
+@media (max-width: 780px) {
+    .icon-bar-foot {
+        display: block;
+    }
+}
+
+
+footer a {
+    font-family: 'Roboto Mono', monospace;
+    transition: all 0.2s ease;
+    font-size: small;
+    text-decoration: none;
+    color: #ccd6f6dc;
+    text-align: center;
+}
+
+footer a:hover {
+    color: #40ffd2e7;
+    cursor: ne-resize;
+}

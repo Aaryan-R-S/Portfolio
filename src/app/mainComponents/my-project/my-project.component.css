@@ -1,0 +1,233 @@
+#myProjectDiv {
+    text-align: left;
+    font-size: 1.1rem;
+    width: 78%;
+    font-family: 'Roboto', sans-serif;
+    animation: myProjectDivUp ease 4.6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-bottom: 10rem;
+}
+
+#myProjectDiv h1, #myProjectDiv h2 {
+    color: var(--LightestSlate);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+#myProjectDiv .hl {
+    border-top: 1px solid #afb6cea8;
+    margin-left: 18px;
+    width: 170px;
+    padding-bottom: 7px;
+    display: inline-block;
+}
+
+#myProjectDiv .span-style {
+    color: var(--Green);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+}
+
+#myProjectDiv h2 .span-style {
+    width: 100%;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+#myProjectDiv #imgDiv-super {
+    border-radius: 7px;
+    position: relative;
+    max-width: 800px;
+    height: 20rem;
+    border: 1.5px solid var(--Green);
+    background-color: #0daf8911;
+    transition: all 0.3s;
+}
+
+#myProjectDiv #imgDiv-super:hover {
+    border-style: dashed;
+    /* background-color: #0daf8955; */
+    transform: scale(1.03);
+    cursor: ne-resize;
+}
+
+#myProjectDiv #imgDiv-super::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 20rem;
+    opacity: 0.2;
+    /* background-image: url('../../../assets/images/spotify.webp'); */
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#imgDiv-super:nth-child(2)::before {
+    background-image: url('../../../assets/images/octoprofile.webp');
+}
+#imgDiv-super:nth-child(3)::before {
+    background-image: url('../../../assets/images/spotify.webp');
+}
+#imgDiv-super:nth-child(4)::before {
+    background-image: url('../../../assets/images/halcyon.webp');
+}
+
+#myProjectDiv #projectLink {
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+}
+#myProjectDiv #projectLink a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: 5px 10px;
+    color: var(--Slate);
+    transition: all 0.3s;
+    cursor: ne-resize;
+}
+#myProjectDiv #projectLink a :hover{
+    color: rgba(113, 250, 204, 0.924);
+}
+
+#myProjectDiv #imgDiv {
+    position: relative;
+}
+
+#myProjectDiv p>span {
+    color: var(--Green);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@keyframes myProjectDivUp {
+    80% {
+        opacity: 0;
+        margin-top: 110px;
+    }
+    100% {
+        margin-top: 90px;
+        opacity: 1;
+    }
+}
+
+#myProjectDiv h2+p {
+    color: var(--LightestSlate);
+    border: 2px solid var(--LightSlate);
+    background-color: #0a192fbd;
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1.5rem;
+    margin-top: 15px;
+    word-wrap: break-word;
+}
+#myProjectDiv h2+p:hover {
+    border-style: dashed;
+}
+
+@media (max-width:780px) {
+    #myProjectDiv #projectLink {
+        position: absolute;
+        top: 3.7rem;
+        right: 1.5rem;
+    }
+    #myProjectDiv {
+        margin-bottom: 7rem;
+    }
+    #myProjectDiv .hl {
+        width: 90px;
+    }
+    #myProjectDiv>h1 {
+        font-size: 1.3rem;
+    }
+    #myProjectDiv>h1>span {
+        font-size: 1.3em;
+    }
+    #myProjectDiv span {
+        font-size: 1rem;
+    }
+    #myProjectDiv h2+p {
+        font-size: 0.7 rem;
+    }
+    #myProjectDiv p span {
+        font-size: 0.7rem;
+        margin: 0rem 0.4rem;
+    }
+    #myProjectDiv #imgDiv-super {
+        height: 22rem;
+    }
+    #myProjectDiv #imgDiv-super::before {
+        height: 22rem;
+    }
+}
+
+@media (max-width:560px) {
+    #myProjectDiv #imgDiv-super {
+        height: 28rem;
+    }
+    #myProjectDiv #imgDiv-super::before {
+        height: 28rem;
+    }
+}
+
+@media (max-width:470px) {
+    #myProjectDiv>h1 {
+        font-size: 1.4rem;
+    }
+    #myProjectDiv>h1>span {
+        font-size: 1.2rem;
+    }
+    #myProjectDiv h2 span {
+        font-size: 0.1rem;
+    }
+    #myProjectDiv #imgDiv-super {
+        height: 33rem;
+    }
+    #myProjectDiv #imgDiv-super::before {
+        height: 33rem;
+    }
+    #myProjectDiv #projectLink {
+        position: absolute;
+        top: 2.9rem;
+        right: 0.2rem;
+    }
+    #myProjectDiv #projectLink a {
+        font-size: medium;
+        margin: 5px;
+    }
+}
+
+@media (max-width:400px) {
+    #myProjectDiv #imgDiv-super {
+        height: 23rem;
+    }
+    #myProjectDiv #imgDiv-super::before {
+        height: 23rem;
+    }
+    #myProjectDiv h2+p {
+        font-size: 0.7rem;
+    }
+    #myProjectDiv h1 {
+        font-size: 1.2rem;
+    }
+    #myProjectDiv h2 {
+        font-size: 1rem;
+    }
+    #myProjectDiv .span-style{
+        font-size: 0.05rem;
+    }
+}
+@media (max-width:350px) {
+    #myProjectDiv #imgDiv-super {
+        height: 27rem;
+    }
+    #myProjectDiv #imgDiv-super::before {
+        height: 27rem;
+    }
+}
