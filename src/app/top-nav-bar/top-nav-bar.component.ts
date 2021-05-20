@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./top-nav-bar.component.css']
 })
 export class TopNavBarComponent implements OnInit {
+  imgPathNav:string;
 
   constructor() {
+    this.imgPathNav = "assets/images/a.png"
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
       var currentScrollPos = window.pageYOffset;

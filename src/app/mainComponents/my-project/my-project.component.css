@@ -69,13 +69,13 @@
 }
 
 #imgDiv-super:nth-child(2)::before {
-    background-image: url('../../../assets/images/octoprofile.webp');
+    background-image: url('https://raw.githubusercontent.com/Aaryan-R-S/Portfolio/master/src/assets/images/octoprofile.webp');
 }
 #imgDiv-super:nth-child(3)::before {
-    background-image: url('../../../assets/images/spotify.webp');
+    background-image: url('https://raw.githubusercontent.com/Aaryan-R-S/Portfolio/master/src/assets/images/spotify.webp');
 }
 #imgDiv-super:nth-child(4)::before {
-    background-image: url('../../../assets/images/halcyon.webp');
+    background-image: url('https://raw.githubusercontent.com/Aaryan-R-S/Portfolio/master/src/assets/images/halcyon.webp');
 }
 
 #myProjectDiv #projectLink {
