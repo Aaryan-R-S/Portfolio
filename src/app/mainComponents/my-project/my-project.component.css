@@ -61,7 +61,7 @@
     top: 0;
     width: 100%;
     height: 20rem;
-    opacity: 0.2;
+    opacity: 0.25;
     /* background-image: url('../../../assets/images/spotify.webp'); */
     background-position: 50% 0;
     background-size: cover;
@@ -69,13 +69,13 @@
 }
 
 #imgDiv-super:nth-child(2)::before {
-    background-image: url('https://raw.githubusercontent.com/Aaryan-R-S/Portfolio/master/src/assets/images/octoprofile.webp');
+    background-image: url('https://raw.githubusercontent.com/Aaryan-R-S/Canvas-Projects-Ping-Pong/master/readme-images/screenshot.png');
 }
 #imgDiv-super:nth-child(3)::before {
-    background-image: url('https://raw.githubusercontent.com/Aaryan-R-S/Portfolio/master/src/assets/images/spotify.webp');
+    background-image: url('https://raw.githubusercontent.com/Aaryan-R-S/Web-Projects-Hows-That/master/readme-images/screenshot.png');
 }
 #imgDiv-super:nth-child(4)::before {
-    background-image: url('https://raw.githubusercontent.com/Aaryan-R-S/Portfolio/master/src/assets/images/halcyon.webp');
+    background-image: url('https://raw.githubusercontent.com/Aaryan-R-S/Web-Projects-Postman-Clone/master/readme-images/screenshot.png');
 }
 
 #myProjectDiv #projectLink {
