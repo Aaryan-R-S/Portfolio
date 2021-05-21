@@ -100,8 +100,8 @@ To get a local copy up and running follow these simple steps.
    npm install
    ```
 - Install Angular Cli ([Click Here](https://angular.io/cli))
-- ng serve
-- ng build --prod --baseHref="https://aaryan-r-s.github.io/Portfolio/"   
+- `ng serve`
+- `ng build --prod --baseHref="https://aaryan-r-s.github.io/Portfolio/"`
    
 
 <!-- ROADMAP -->
