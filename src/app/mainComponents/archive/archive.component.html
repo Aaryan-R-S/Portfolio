@@ -12,111 +12,15 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td class="mainYear">2020</td>
-            <td class="mainTitle">Michelle Wu for Boston Grassroots Toolkit</td>
-            <td class="hideAtMaxWidth">Upstatement</td>
-            <td class="hideAtMaxWidth">Gatsby · Styled Components</td>
+          <tr *ngFor="let archiveProject of archiveProjectArr">
+            <td class="mainYear">{{archiveProject.year}}</td>
+            <td class="mainTitle">{{archiveProject.title}}</td>
+            <td class="hideAtMaxWidth">{{archiveProject.category}}</td>
+            <td class="hideAtMaxWidth">{{archiveProject.builtWith}}</td>
             <td>
                 <div id="projectLink">
-                  <a href="#" style="margin-top: -5px;"><i class="fa fa-github"></i></a>
-                  <a href="#"><i class="fa fa-external-link"></i></a>
-                </div>
-            </td>
-          </tr>
-          <tr>
-            <td class="mainYear">2020</td>
-            <td class="mainTitle">Michelle Wu for Boston Grassroots Toolkit</td>
-            <td class="hideAtMaxWidth">Upstatement</td>
-            <td class="hideAtMaxWidth">Gatsby · Styled Components</td>
-            <td>
-                <div id="projectLink">
-                  <a href="#" style="margin-top: -5px;"><i class="fa fa-github"></i></a>
-                    <a href="#"><i class="fa fa-external-link"></i></a>
-                </div>
-            </td>
-          </tr>
-          <tr>
-            <td class="mainYear">2020</td>
-            <td class="mainTitle">Michelle Wu for Boston Grassroots Toolkit</td>
-            <td class="hideAtMaxWidth">Upstatement</td>
-            <td class="hideAtMaxWidth">Gatsby · Styled Components</td>
-            <td>
-                <div id="projectLink">
-                  <a href="#" style="margin-top: -5px;"><i class="fa fa-github"></i></a>
-                    <a href="#"><i class="fa fa-external-link"></i></a>
-                </div>
-            </td>
-          </tr>
-          <tr>
-            <td class="mainYear">2020</td>
-            <td class="mainTitle">Michelle Wu for Boston Grassroots Toolkit</td>
-            <td class="hideAtMaxWidth">Upstatement</td>
-            <td class="hideAtMaxWidth">Gatsby · Styled Components</td>
-            <td>
-                <div id="projectLink">
-                  <a href="#" style="margin-top: -5px;"><i class="fa fa-github"></i></a>
-                    <a href="#"><i class="fa fa-external-link"></i></a>
-                </div>
-            </td>
-          </tr>
-          <tr>
-            <td class="mainYear">2020</td>
-            <td class="mainTitle">Michelle Wu for Boston Grassroots Toolkit</td>
-            <td class="hideAtMaxWidth">Upstatement</td>
-            <td class="hideAtMaxWidth">Gatsby · Styled Components</td>
-            <td>
-                <div id="projectLink">
-                  <a href="#" style="margin-top: -5px;"><i class="fa fa-github"></i></a>
-                    <a href="#"><i class="fa fa-external-link"></i></a>
-                </div>
-            </td>
-          </tr>
-          <tr>
-            <td class="mainYear">2020</td>
-            <td class="mainTitle">Michelle Wu for Boston Grassroots Toolkit</td>
-            <td class="hideAtMaxWidth">Upstatement</td>
-            <td class="hideAtMaxWidth">Gatsby · Styled Components</td>
-            <td>
-                <div id="projectLink">
-                  <a href="#" style="margin-top: -5px;"><i class="fa fa-github"></i></a>
-                    <a href="#"><i class="fa fa-external-link"></i></a>
-                </div>
-            </td>
-          </tr>
-          <tr>
-            <td class="mainYear">2020</td>
-            <td class="mainTitle">Michelle Wu for Boston Grassroots Toolkit</td>
-            <td class="hideAtMaxWidth">Upstatement</td>
-            <td class="hideAtMaxWidth">Gatsby · Styled Components</td>
-            <td>
-                <div id="projectLink">
-                  <a href="#" style="margin-top: -5px;"><i class="fa fa-github"></i></a>
-                    <a href="#"><i class="fa fa-external-link"></i></a>
-                </div>
-            </td>
-          </tr>
-          <tr>
-            <td class="mainYear">2020</td>
-            <td class="mainTitle">Michelle Wu for Boston Grassroots Toolkit</td>
-            <td class="hideAtMaxWidth">Upstatement</td>
-            <td class="hideAtMaxWidth">Gatsby · Styled Components</td>
-            <td>
-                <div id="projectLink">
-                  <a href="#" style="margin-top: -5px;"><i class="fa fa-github"></i></a>
-                    <a href="#"><i class="fa fa-external-link"></i></a>
-                </div>
-            </td>
-          </tr>
-          <tr>
-            <td class="mainYear">2020</td>
-            <td class="mainTitle">Michelle Wu for Boston Grassroots Toolkit</td>
-            <td class="hideAtMaxWidth">Upstatement</td>
-            <td class="hideAtMaxWidth">Gatsby · Styled Components</td>
-            <td>
-                <div id="projectLink">
-                  <a href="#" style="margin-top: -5px;"><i class="fa fa-github"></i></a>
-                    <a href="#"><i class="fa fa-external-link"></i></a>
+                  <a href="{{archiveProject.githubLink}}" target="_blank" style="margin-top: -5px;"><i class="fa fa-github"></i></a>
+                  <a href="{{archiveProject.projectLink}}" target="_blank"><i class="fa fa-external-link"></i></a>
                 </div>
             </td>
           </tr>

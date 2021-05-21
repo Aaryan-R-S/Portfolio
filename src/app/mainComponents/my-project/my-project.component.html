@@ -3,7 +3,25 @@
         <span class="span-style">03.</span> Some Things I’ve Built
         <div class="hl"></div>
     </h1>
-    <div id="imgDiv-super" class="container my-3">
+    <div *ngFor="let project of topProjectArr">
+        <div id="imgDiv-super" class="container my-3">
+            <div id="imgDiv" class="p-4">
+                <h2 class="mb-1 h2">
+                    <span class="span-style">Featured Project
+                    </span><br>
+                    {{project.title}} 
+                </h2>
+                <p>{{project.description}}</p>
+                <p><span *ngFor="let tech of project.builtWith">{{tech}} &nbsp;</span></p>
+                <div id="projectLink">
+                    <a href="{{project.githubLink}}" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="{{project.projectLink}}" target="_blank"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="imgDiv-super" class="container my-3">
         <div id="imgDiv" class="p-4">
             <h2 class="mb-1 h2">
                 <span class="span-style">Featured Project
@@ -28,8 +46,8 @@
             <p>How's That is a Cricket fantasy team site. Participants can register before the start of cricket match and then see their teams performance on the points table. It is developed using python flask and Cric Api. It is deployed on Heroku using Heroku CLI.</p>
             <p><span>Python&nbsp; Gspread&nbsp; JavaScript&nbsp; Flask&nbsp; CricApi&nbsp;</span></p>
             <div id="projectLink">
-                <a href="https://github.com/Aaryan-R-S/Web-Projects-Hows-That"><i class="fa fa-github"></i></a>
-                <a href="https://hows-that-aaryanars.herokuapp.com/"><i class="fa fa-external-link"></i></a>
+                <a href="https://github.com/Aaryan-R-S/Web-Projects-Hows-That" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://hows-that-aaryanars.herokuapp.com/" target="_blank"><i class="fa fa-external-link"></i></a>
             </div>
         </div>
     </div>
@@ -43,9 +61,9 @@
             <p>This is a Postman Clone Website developed using JavaScript Fetch API. The user can make a GET or POST by mentioning request type and giving params either in form of JSON or any other custom made to get Response in the textbox.</p>
             <p><span>HTML&nbsp; CSS&nbsp; JavaScript&nbsp; Prism.js&nbsp; Git&nbsp;</span></p>
             <div id="projectLink">
-                <a href="https://github.com/Aaryan-R-S/Web-Projects-Postman-Clone"><i class="fa fa-github"></i></a>
-                <a href="https://aaryan-r-s.github.io/Web-Projects-Postman-Clone"><i class="fa fa-external-link"></i></a>
+                <a href="https://github.com/Aaryan-R-S/Web-Projects-Postman-Clone" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://aaryan-r-s.github.io/Web-Projects-Postman-Clone" target="_blank"><i class="fa fa-external-link"></i></a>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>

@@ -4,7 +4,7 @@ export class ProjectDetails {
     title:string
     category:string
     description:string
-    builtWith:string[6]
-    website:string
-    github:string
+    builtWith:string[]
+    projectLink:string
+    githubLink:string
 }
