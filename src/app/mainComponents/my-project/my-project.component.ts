@@ -11,15 +11,6 @@ export class MyProjectComponent implements OnInit {
   constructor() {
     this.topProjectArr = [
       {
-        year:2020,
-        title:"Ping-Pong Game",
-        category:"Web Game",
-        description:"This is a Ping Pong game developed using JavaScript and served as a static webpage using GitHub pages. It is mind relaxing and fun-playing, multi-player game. It is build using HTML canvas and vector library from the MinuteLabs.io",
-        builtWith: ["HTML","Canvas","CSS","JS","Git"],
-        projectLink:"https://aaryan-r-s.github.io/Canvas-Projects-Ping-Pong",
-        githubLink:"https://github.com/Aaryan-R-S/Canvas-Projects-Ping-Pong"
-      },
-      {
         year:2021,
         title:"How's That",
         category:"Entertainment",
@@ -29,13 +20,22 @@ export class MyProjectComponent implements OnInit {
         githubLink:"https://github.com/Aaryan-R-S/Web-Projects-Hows-That"
       },
       {
-        year:2020,
-        title:"Postman Clone",
+        year:2021,
+        title:"Will Hero Game",
+        category:"Java Game",
+        description:"This is a popular Will Hero game clone developed using Java and Java Fx module for GUI. The game uses concepts of OOPs, multi-threading and serialization. It is mind relaxing and fun-playing, multi-player game. It was done by me and my friend Ritvik as a Course Project.",
+        builtWith: ["Java","JavaFx","Git"],
+        projectLink:"https://github.com/Aaryan-R-S/Sem3-AP-Project/blob/master/readme-images/ss.png",
+        githubLink:"https://github.com/Aaryan-R-S/Sem3-AP-Project"
+      },
+      {
+        year:2021,
+        title:"iNotebook - eNotes",
         category:"Web Utility",
-        description:"This is a Postman Clone Website developed using JavaScript Fetch API. The user can make a GET or POST by mentioning request type and giving params either in form of JSON or any other custom made to get Response in the textbox.",
-        builtWith: ["HTML","CSS","JS","Prism.js","Git"],
-        projectLink:"https://aaryan-r-s.github.io/Web-Projects-Postman-Clone",
-        githubLink:"https://github.com/Aaryan-R-S/Web-Projects-Postman-Clone"
+        description:"This is an eNotes website developed using MERN technologies. It inlcudes login and sign up facilities and MongoDB database connectivity for fetching notes anytime, anywhere. It is built on latest react-function-based components for high user experience.",
+        builtWith: ["HTML","Bootstrap", "Node.js","ExpressJs","ReactJs","MongoDB"],
+        projectLink:"https://github.com/Aaryan-R-S/ReactJS-Tutorials/blob/master/Tutorials/inotebook/readme-images/screenshot.png",
+        githubLink:"https://github.com/Aaryan-R-S/ReactJS-Tutorials/tree/master/Tutorials/inotebook"
       }
     ]
   }

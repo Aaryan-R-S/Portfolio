@@ -20,6 +20,15 @@ export class AllProjectsComponent implements OnInit {
         githubLink:"https://github.com/Aaryan-R-S/Canvas-Projects-Collision-Game"
       },
       {
+        year:2021,
+        title:"Lightning BFS",
+        category:"Tkinter Simulation",
+        description:"This is a Lightning simulator which works on Breadth-first-search algorithm. It is built with Python with cool GUI to display the animation using Python Tkinter module.",
+        builtWith: ["Python","Tkinter"],
+        projectLink:"https://github.com/Aaryan-R-S/Lightning-BFS/blob/master/readme-images/screenshot.png",
+        githubLink:"https://github.com/Aaryan-R-S/Lightning-BFS"
+      },
+      {
         year:2020,
         title:"Blockchain Project",
         category:"App Utility",
@@ -39,12 +48,12 @@ export class AllProjectsComponent implements OnInit {
       },
       {
         year:2021,
-        title:"Personal Website",
-        category:"Web Portfolio",
-        description:"This is My Web Portfolio including resume! I needed a website for myself so I decided to build it with the help of a JavaScript framework, AngularJS.",
-        builtWith: ["HTML,CSS,JS","AngularJS"],
-        projectLink:"https://aaryan-r-s.github.io/Portfolio",
-        githubLink:"https://github.com/Aaryan-R-S/Portfolio"
+        title:"News App",
+        category:"Web Utility",
+        description:"This is a news website developed using ReactJs and News API. It is highly productive news site that really suit my needs!",
+        builtWith: ["Bootstrap", "ReactJs", "NewsAPI"],
+        projectLink:"https://github.com/Aaryan-R-S/ReactJS-Tutorials/blob/master/Tutorials/newsapp_rcc_rfc/readme-images/screenshot.png",
+        githubLink:"https://github.com/Aaryan-R-S/ReactJS-Tutorials/tree/master/Tutorials/newsapp_rcc_rfc"
       },
       {
         year:2020,
@@ -54,15 +63,6 @@ export class AllProjectsComponent implements OnInit {
         builtWith: ["JS","MySql","Python","Flask"],
         projectLink:"https://github.com/Aaryan-R-S/Web-Projects-Flask-Blog",
         githubLink:"https://github.com/Aaryan-R-S/Web-Projects-Flask-Blog"
-      },
-      {
-        year:2021,
-        title:"Dino Automated",
-        category:"Python App",
-        description:"This is a python app which automates the Chrome Dino Game! It is a great utility which I prefer to quickly get to high scores.",
-        builtWith: ["Python","PyautoGUI","Pillow"],
-        projectLink:"https://github.com/Aaryan-R-S/Python-Projects-Chrome-Dino-Automated",
-        githubLink:"https://github.com/Aaryan-R-S/Python-Projects-Chrome-Dino-Automated"
       },
       {
         year:2021,
@@ -101,6 +101,15 @@ export class AllProjectsComponent implements OnInit {
         githubLink:"https://github.com/Aaryan-R-S/Python-Projects-Snake-PyGame"
       },
       {
+        year:2021,
+        title:"Personal Website",
+        category:"Web Portfolio",
+        description:"This is My Web Portfolio including resume! I needed a website for myself so I decided to build it with the help of a JavaScript framework, AngularJS.",
+        builtWith: ["HTML,CSS,JS","AngularJS"],
+        projectLink:"https://aaryan-r-s.github.io/Portfolio",
+        githubLink:"https://github.com/Aaryan-R-S/Portfolio"
+      },
+      {
         year:2020,
         title:"Flappy Bird PyGame",
         category:"Game App",
@@ -108,15 +117,6 @@ export class AllProjectsComponent implements OnInit {
         builtWith: ["Python","PyGame","Git"],
         projectLink:"https://github.com/Aaryan-R-S/Python-Projects-Flappy-Bird",
         githubLink:"https://github.com/Aaryan-R-S/Python-Projects-Flappy-Bird"
-      },
-      {
-        year:2020,
-        title:"PacMan",
-        category:"Web Game",
-        description:"This is a pupular Pacman game developed using JavaScript and served as a static webpage using GitHub pages. It is mind relaxing and fun-playing that really suit my needs!",
-        builtWith: ["HTML","CSS","JavaScript"],
-        projectLink:"https://aaryan-r-s.github.io/JavaScript-Games-PacMan",
-        githubLink:"https://github.com/Aaryan-R-S/JavaScript-Games-PacMan"
       },
     ]
   }

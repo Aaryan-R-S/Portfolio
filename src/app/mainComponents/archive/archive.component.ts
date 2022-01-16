@@ -13,6 +13,60 @@ export class ArchiveComponent implements OnInit {
     this.titleService.setTitle("Archive | Aaryan Raj Saxena");
     this.archiveProjectArr = [
       {
+        year:2022,
+        title:"Will Hero Game",
+        category:"Java Game",
+        description:"This is a popular Will Hero game clone developed using Java and Java Fx module for GUI. The game uses concepts of OOPs, multi-threading and serialization. It is mind relaxing and fun-playing, multi-player game. It was done by me and my friend Ritvik as a Course Project.",
+        builtWith: ["Java","JavaFx","Git"],
+        projectLink:"https://github.com/Aaryan-R-S/Sem3-AP-Project/blob/master/readme-images/ss.png",
+        githubLink:"https://github.com/Aaryan-R-S/Sem3-AP-Project"
+      },
+      {
+        year:2021,
+        title:"iNotebook - eNotes",
+        category:"Web Utility",
+        description:"This is an eNotes website developed using MERN technologies. It inlcudes login and sign up facilities and MongoDB database connectivity for fetching notes anytime, anywhere. It is built on latest react-function-based components for high user experience.",
+        builtWith: ["Node.js","ExpressJs","ReactJs","MongoDB"],
+        projectLink:"https://github.com/Aaryan-R-S/ReactJS-Tutorials/blob/master/Tutorials/inotebook/readme-images/screenshot.png",
+        githubLink:"https://github.com/Aaryan-R-S/ReactJS-Tutorials/tree/master/Tutorials/inotebook"
+      },
+      {
+        year:2021,
+        title:"News App",
+        category:"Web Utility",
+        description:"This is a news website developed using ReactJs and News API. It is highly productive news site that really suit my needs!",
+        builtWith: ["Bootstrap", "Node.js", "ReactJs", "NewsAPI"],
+        projectLink:"https://github.com/Aaryan-R-S/ReactJS-Tutorials/blob/master/Tutorials/newsapp_rcc_rfc/readme-images/screenshot.png",
+        githubLink:"https://github.com/Aaryan-R-S/ReactJS-Tutorials/tree/master/Tutorials/newsapp_rcc_rfc"
+      },
+      {
+        year:2021,
+        title:"Text Utils",
+        category:"Web Utility",
+        description:"This is a text utility website developed using ReactJs. It is highly productive site for formatting text that really suit my needs!",
+        builtWith: ["HTML", "Bootstrap", "Node.js", "ReactJs"],
+        projectLink:"https://github.com/Aaryan-R-S/ReactJS-Tutorials/blob/master/Tutorials/textutils_rfc/readme-images/screenshot.png",
+        githubLink:"https://github.com/Aaryan-R-S/ReactJS-Tutorials/tree/master/Tutorials/textutils_rfc"
+      },
+      {
+        year:2021,
+        title:"Lightning BFS",
+        category:"Tkinter Simulation",
+        description:"This is a Lightning simulator which works on Breadth-first-search algorithm. It is built with Python with cool GUI to display the animation using Python Tkinter module.",
+        builtWith: ["Python","Tkinter"],
+        projectLink:"https://github.com/Aaryan-R-S/Lightning-BFS/blob/master/readme-images/screenshot.png",
+        githubLink:"https://github.com/Aaryan-R-S/Lightning-BFS"
+      },
+      {
+        year:2021,
+        title:"Assembler",
+        category:"Computer ISA",
+        description:"This is a CO group assignment (Semester-2) done by me, Prakhar and Sanyam. Aim - To design and implement a custom assembler and a custom simulator for a given ISA.",
+        builtWith: ["Python", "Matplotlib", "Shell"],
+        projectLink:"https://github.com/Aaryan-R-S/Sem2-CO-Assignment",
+        githubLink:"https://github.com/Aaryan-R-S/Sem2-CO-Assignment"
+      },
+      {
         year:2021,
         title:"How's That",
         category:"Entertainment",
