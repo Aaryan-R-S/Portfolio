@@ -14,6 +14,33 @@ export class ArchiveComponent implements OnInit {
     this.archiveProjectArr = [
       {
         year:2022,
+        title:"Next JS Tutorials",
+        category:"Tutorial",
+        description:"This is complete NextJS tutorial repository along with projects!",
+        builtWith: ["NextJS","ReactJS","Git"],
+        projectLink:"https://github.com/Aaryan-R-S/Next-JS-Tutorials",
+        githubLink:"https://github.com/Aaryan-R-S/Next-JS-Tutorials"
+      },
+      {
+        year:2022,
+        title:"Online Banking System",
+        category:"Database Design",
+        description:"This is a Online Banking System complete backend project alongwith fully-fledged MySQL database with 50+ Relational Schemas. It contains ER Diagram, Complete Database Dump, Database Entries in both CSV & Excel, Source Code and Project Report.",
+        builtWith: ["Python","SQL","MySQL"],
+        projectLink:"https://github.com/Aaryan-R-S/Online-Banking-System-Database",
+        githubLink:"https://github.com/Aaryan-R-S/Online-Banking-System-Database"
+      },
+      {
+        year:2022,
+        title:"Quantitative Biology",
+        category:"Algorithms",
+        description:"This repo contains the IQB assignments done by me in Winter Semester 2022 at IIIT Delhi!",
+        builtWith: ["Python","Jupyter Notebook"],
+        projectLink:"https://github.com/Aaryan-R-S/Sem4-IQB-Assignments",
+        githubLink:"https://github.com/Aaryan-R-S/Sem4-IQB-Assignments"
+      },
+      {
+        year:2022,
         title:"Will Hero Game",
         category:"Java Game",
         description:"This is a popular Will Hero game clone developed using Java and Java Fx module for GUI. The game uses concepts of OOPs, multi-threading and serialization. It is mind relaxing and fun-playing, multi-player game. It was done by me and my friend Ritvik as a Course Project.",
