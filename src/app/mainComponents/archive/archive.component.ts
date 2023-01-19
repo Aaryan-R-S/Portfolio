@@ -14,6 +14,51 @@ export class ArchiveComponent implements OnInit {
     this.archiveProjectArr = [
       {
         year:2022,
+        title:"FCS Web Project",
+        category:"Security",
+        description:"This is a group project done by me, Rahul, Prakhar and Deepam for our FCS course! It involves creating a highly secure website which can act as e-care portal for patients, hospitals and doctors. It has automatic document verification system and many more features.",
+        builtWith: ["Blockchain","MongoDB","ReactJS","Linux","git"],
+        projectLink:"https://github.com/Aaryan-R-S/FCS-Project-2022",
+        githubLink:"https://github.com/Aaryan-R-S/FCS-Project-2022"
+      },
+      {
+        year:2022,
+        title:"Blind Signatures",
+        category:"Cryptography",
+        description:"This is Blind Signature for Untraceable Payments paper implementation done by me during Monsoon Semester 2023 in Applied Cryptography course!",
+        builtWith: ["Python","gmpy2","Crypto"],
+        projectLink:"https://github.com/Aaryan-R-S/Sem5-AC-Blind-Signatures",
+        githubLink:"https://github.com/Aaryan-R-S/Sem5-AC-Blind-Signatures"
+      },
+      {
+        year:2022,
+        title:"Cryptography Assignments",
+        category:"Cryptography",
+        description:"This repository contains the Applied Cryptography assignments done by me in Monsoon Semester 2023 at IIIT Delhi!",
+        builtWith: ["Python","gmpy2","Crypto"],
+        projectLink:"https://github.com/Aaryan-R-S/Sem5-AC-Assignments",
+        githubLink:"https://github.com/Aaryan-R-S/Sem5-AC-Assignments"
+      },
+      {
+        year:2022,
+        title:"Web3 Course",
+        category:"Course",
+        description:"This course contains a full introduction into all of the core concepts related to blockchain, smart contracts, Solidity, ERC20s, full-stack Web3 dapps, decentralized finance (DeFi), JavaScript, TypeScript, Chainlink, Ethereum, upgradable smart contracts, DAOs, the graph, moralis, aave, IPFS, and more.",
+        builtWith: ["Solidity","JS","TS","Chainlink","Ethereum","Moralis","The Graph"],
+        projectLink:"https://github.com/Aaryan-R-S/Web3-FCC-32hr-Course",
+        githubLink:"https://github.com/Aaryan-R-S/Web3-FCC-32hr-Course"
+      },
+      {
+        year:2022,
+        title:"Social Chatbot",
+        category:"Health",
+        description:"This is fullstack MERN project named Social Chatbot done under AI for Social Counselling research at ADS Lab, IIITD under the guidance of Dr Mukesh Mohania and PhD Scholar Ayan K Saif. The project focuses on designing an AI-enabled social counseling system based on Emotion-Focused Therapy.",
+        builtWith: ["MonogoDB","NextJS","ReactJS","Git"],
+        projectLink:"https://github.com/Aaryan-R-S/Social-Chatbot-Project-Frontend",
+        githubLink:"https://github.com/Aaryan-R-S/Social-Chatbot-Project-Backend"
+      },
+      {
+        year:2022,
         title:"Next JS Tutorials",
         category:"Tutorial",
         description:"This is complete NextJS tutorial repository along with projects!",

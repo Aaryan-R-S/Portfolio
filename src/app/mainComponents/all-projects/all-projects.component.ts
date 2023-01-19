@@ -29,13 +29,31 @@ export class AllProjectsComponent implements OnInit {
         githubLink:"https://github.com/Aaryan-R-S/Lightning-BFS"
       },
       {
-        year:2020,
-        title:"Blockchain Project",
-        category:"App Utility",
-        description:"This is a Blockchain Transaction project developed using JavaScript. It mimics the current cryptocurrencies that work on the Blockchain technology!",
-        builtWith: ["JavaScript","Node.js","Git"],
-        projectLink:"https://github.com/Aaryan-R-S/JavaScript-Projects-Blockchain-Transaction",
-        githubLink:"https://github.com/Aaryan-R-S/JavaScript-Projects-Blockchain-Transaction"
+        year:2022,
+        title:"Social Chatbot",
+        category:"Health",
+        description:"This is fullstack MERN project done under AI for Social Counselling research at ADS Lab, IIITD. The project focuses on designing an AI-enabled social counseling system based on Emotion-Focused Therapy.",
+        builtWith: ["MonogoDB","NextJS","ReactJS"],
+        projectLink:"https://github.com/Aaryan-R-S/Social-Chatbot-Project-Frontend",
+        githubLink:"https://github.com/Aaryan-R-S/Social-Chatbot-Project-Backend"
+      },
+      {
+        year:2022,
+        title:"FCS Web Project",
+        category:"Security",
+        description:"This is a group project which involves creating a highly secure website which can act as e-care portal for patients, hospitals and doctors. It has automatic document verification system and many more features.",
+        builtWith: ["Blockchain","MongoDB","ReactJS"],
+        projectLink:"https://github.com/Aaryan-R-S/FCS-Project-2022",
+        githubLink:"https://github.com/Aaryan-R-S/FCS-Project-2022"
+      },
+      {
+        year:2022,
+        title:"Blind Signatures",
+        category:"Cryptography",
+        description:"This is Blind Signature for Untraceable Payments paper implementation done by me during Monsoon Semester 2023 in Applied Cryptography course!",
+        builtWith: ["Python","gmpy2","Crypto"],
+        projectLink:"https://github.com/Aaryan-R-S/Sem5-AC-Blind-Signatures",
+        githubLink:"https://github.com/Aaryan-R-S/Sem5-AC-Blind-Signatures"
       },
       {
         year:2021,
@@ -54,15 +72,6 @@ export class AllProjectsComponent implements OnInit {
         builtWith: ["Bootstrap", "ReactJs", "NewsAPI"],
         projectLink:"https://github.com/Aaryan-R-S/ReactJS-Tutorials/blob/master/Tutorials/newsapp_rcc_rfc/readme-images/screenshot.png",
         githubLink:"https://github.com/Aaryan-R-S/ReactJS-Tutorials/tree/master/Tutorials/newsapp_rcc_rfc"
-      },
-      {
-        year:2020,
-        title:"Flask Blog",
-        category:"Blog",
-        description:"This is a Sample Blog made using Bootstrap, JS and Python Flask for practice purpose. It is connected with MySql datbase and also have admin panel to edit and delete posts!",
-        builtWith: ["JS","MySql","Python","Flask"],
-        projectLink:"https://github.com/Aaryan-R-S/Web-Projects-Flask-Blog",
-        githubLink:"https://github.com/Aaryan-R-S/Web-Projects-Flask-Blog"
       },
       {
         year:2021,
@@ -99,15 +108,6 @@ export class AllProjectsComponent implements OnInit {
         builtWith: ["Python","PyGame","Git"],
         projectLink:"https://github.com/Aaryan-R-S/Python-Projects-Snake-PyGame",
         githubLink:"https://github.com/Aaryan-R-S/Python-Projects-Snake-PyGame"
-      },
-      {
-        year:2021,
-        title:"Personal Website",
-        category:"Web Portfolio",
-        description:"This is My Web Portfolio including resume! I needed a website for myself so I decided to build it with the help of a JavaScript framework, AngularJS.",
-        builtWith: ["HTML,CSS,JS","AngularJS"],
-        projectLink:"https://aaryan-r-s.github.io/Portfolio",
-        githubLink:"https://github.com/Aaryan-R-S/Portfolio"
       },
       {
         year:2020,
